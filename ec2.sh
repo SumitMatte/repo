@@ -6,5 +6,5 @@ sudo apt install apache2 -y
 
 sudo apt install default-jdk -y
 
-sudo apt install tomcat9 -y
+sudo apt-get install tomcat9 -y
 
