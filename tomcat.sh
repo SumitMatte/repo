@@ -10,5 +10,6 @@ sudo chown -R tomcat: /opt/tomcat
 echo 'export CATALINA_HOME="/opt/tomcat"' >> ~/.bashrc
 echo 'export JAVA_HOME="/usr/lib/jvm/default-java"' >> ~/.bashrc
 source ~/.bashrc
-$CATALINA_HOME/bin/startup.sh
+sudo /opt/tomcat/bin/catalina.sh start
+#$CATALINA_HOME/bin/startup.sh
 
