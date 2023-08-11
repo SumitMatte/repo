@@ -2,7 +2,7 @@
 
 sudo apt install maven -y
 cd /mnt/
-sudo git clone https://github.com/SumitMatte/onlinebookstore.git
+git clone https://github.com/SumitMatte/onlinebookstore.git
 cd /mnt/onlinebookstore/
 mvn install
 sudo chmod -R o+rwx /var/lib/tomcat9/webapps/
