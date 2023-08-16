@@ -5,7 +5,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt update
 sudo apt install yarn -y
 cd /mnt
-sudo git clone https://github.com/SumitMatte/tic-tac-react.git
+sudo git clone https://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:x-oauth-basic@github.com/SumitMatte/tic-tac-react.git
 cd tic-tac-react
 yarn install
 yarn start
